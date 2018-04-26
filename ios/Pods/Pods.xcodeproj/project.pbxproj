@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1B50CBDF70E4611A7E19218CACCAA2 /* alert-circled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD52C9E1B9BE1642376F687FE2AC508 /* alert-circled@3x.png */; };
+		1E4381496209289F723E5ED66E1235E4 /* pointzi-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDB600F30073BB1A49F1FB80DDCC94B /* pointzi-logo.png */; };
+		20F5A513D04EACEAD5040C490A5311D4 /* Xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABBF39BC2E6F4750A8C461ED795BF1F /* Xib */; };
+		2A99E8127E419468AB8D2F30E8AB3F68 /* animation-pulse.gif in Resources */ = {isa = PBXBuildFile; fileRef = 47D334D9FE7740CDF49C7749EB0ED336 /* animation-pulse.gif */; };
+		358E42C704CC8BC4CC15C0CD7B76D401 /* Pods-NativebaseKitchenSink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A705F64CEECF2614E93B28D9BB858C8F /* Pods-NativebaseKitchenSink-dummy.m */; };
+		375328C8E93EA9584EA44915547A51E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		38B5176592C0954D342D67193A5D1A8C /* SHPopTipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 762D15B8FE34D94EDDF2E1D4BC0FE04B /* SHPopTipViewController.xib */; };
+		3D984787C0E455369CD1DB9370FF50D6 /* wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE74FA4943927395E6A834698D77574 /* wallet.png */; };
+		4282A48BE509047C88A53386F48AFB63 /* SHModalTipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDDE5D0AD0889423FDE6CB4617C7AF7B /* SHModalTipViewController.xib */; };
+		4FBE21251BE5991F60C68BE38AFC4446 /* SHChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B27107DB07ECFEE1D0FF45C6EB95FD94 /* SHChoiceViewController.xib */; };
+		5015127F7B708EF863FB1327B21EC6E3 /* Pods-NativebaseKitchenSinkTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34F161E4C022F57DA1719197103EDD /* Pods-NativebaseKitchenSinkTests-dummy.m */; };
+		51440BE00C77D5CAA2E3F614E44ED951 /* SHSlideWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816A036B099E20F0A9BC5FA6D688215D /* SHSlideWebViewController.xib */; };
+		5E10D8EDE79945E1A70C6AB40C5257F9 /* hotels.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4E6F33FDB8FE42B21159D35A7C7686 /* hotels.png */; };
+		7D29F84BC9B4F9AEE5049B8293F3328C /* SHAlertSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292C3139864587B808389544125BEB92 /* SHAlertSettingsViewController.xib */; };
+		83BCDBA752B754297B982E2F0415F9C6 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A07D7A3BF24B4754B9CD4002D3605F9 /* close@3x.png */; };
+		84FF1EA9E0A6EEAEC2801DA7599B69D5 /* record@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47999279554BDECD698A1DE9311E1A9C /* record@3x.png */; };
+		8736BFE71630DE30BA9E141E7AEAD820 /* banks.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A7707F788C78B548E5406F404D85FC /* banks.png */; };
+		8BAB88D2A738F28617245C5644C39135 /* stores.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDA836CCB5B5418F98B29DC19C023C /* stores.png */; };
+		8F667463292C68874BA9551032A6389C /* animation-pulse.gif in Resources */ = {isa = PBXBuildFile; fileRef = B930314B3BEB0C6199F2C42F8A0AC29E /* animation-pulse.gif */; };
+		9580982B702AAB88A05E6EB52A4CB8FD /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = A7BA77340DA8D42F8B9C7BA9EBFCAF46 /* key.png */; };
+		99C3927E1393E55F21620DC3EEFCA766 /* help-circled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D51B00CF6BC52385EDDA3B6A7967C3A /* help-circled@3x.png */; };
+		9A48525A1C8343BBD21ED3A03551F1B4 /* SHCoachmarkTipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EF4638999FF47C6BA27A21CD3F71DD /* SHCoachmarkTipViewController.xib */; };
+		A5D57B3D640ED6DADAE91A50DE717A1E /* camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D06749A173FD30521F71ADDAD8749E1E /* camera@3x.png */; };
+		A8EE30A669FC6B4D1301CEC065F3B774 /* information-circled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74900C902FF5F18A02AF87C607D6A2DA /* information-circled@3x.png */; };
+		B2F8ADDF2DD24CEEDC0ACDD66076E379 /* SHFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 167E4B57695E23052537451CAE2C8816 /* SHFeedbackViewController.xib */; };
+		BEE375B0FFFEF75F1037257B132A1E4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CB5B6EE1DF6E4872EBA12950B94E98F8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E454AE7E8A2515BAF5228526576F8F3 /* Localizable.strings */; };
+		CC1F88D61549C414732DAA01946ED716 /* Image in Resources */ = {isa = PBXBuildFile; fileRef = 2AD678ED4345D25A2DEF066A298BA2E3 /* Image */; };
+		D63A805C0712DCA364B3377A4E468183 /* shopping_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B689A9BAEA83E0EE95A849CD8C6F01 /* shopping_cart.png */; };
+		F802C490829B945833A9F5FA90934261 /* String in Resources */ = {isa = PBXBuildFile; fileRef = E9001128B70A45E927DD028969613B76 /* String */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		605505C813422AE2E4E952A1AFF4DB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92904F29577F22586BC2F142781C2346;
+			remoteInfo = "pointzi-Pointzi";
+		};
+		9FBAC687E31DEB6457ABF4138D4A6C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92904F29577F22586BC2F142781C2346;
+			remoteInfo = "pointzi-Pointzi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B689A9BAEA83E0EE95A849CD8C6F01 /* shopping_cart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = shopping_cart.png; path = Pointzi/Assets/Image/shopping_cart.png; sourceTree = "<group>"; };
+		00EF4638999FF47C6BA27A21CD3F71DD /* SHCoachmarkTipViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHCoachmarkTipViewController.xib; path = Pointzi/Assets/Xib/SHCoachmarkTipViewController.xib; sourceTree = "<group>"; };
+		023D16F29A0787F2FB16ADC304DCAE44 /* Pods-NativebaseKitchenSink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NativebaseKitchenSink.debug.xcconfig"; sourceTree = "<group>"; };
+		0D51B00CF6BC52385EDDA3B6A7967C3A /* help-circled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "help-circled@3x.png"; path = "Pointzi/Assets/Image/help-circled@3x.png"; sourceTree = "<group>"; };
+		134E4B3DF36411A7409F5A07B889BD4F /* SHTipCarouselElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipCarouselElement.h; path = Pointzi/Headers/SHTipCarouselElement.h; sourceTree = "<group>"; };
+		15E4E85AB979C2E29DAE106480E80517 /* SHTipButtonElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipButtonElement.h; path = Pointzi/Headers/SHTipButtonElement.h; sourceTree = "<group>"; };
+		167E4B57695E23052537451CAE2C8816 /* SHFeedbackViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHFeedbackViewController.xib; path = Pointzi/Assets/Xib/SHFeedbackViewController.xib; sourceTree = "<group>"; };
+		16A2B291118E14B8B54406C12BAB9A3C /* libPointzi.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPointzi.a; path = Pointzi/libPointzi.a; sourceTree = "<group>"; };
+		1A07D7A3BF24B4754B9CD4002D3605F9 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@3x.png"; path = "Pointzi/Assets/Image/close@3x.png"; sourceTree = "<group>"; };
+		1C383B3E41D56DAD4CF992E0D565495F /* Pods-NativebaseKitchenSink-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NativebaseKitchenSink-frameworks.sh"; sourceTree = "<group>"; };
+		1E1BD0C3AD16964738E09C9852D24F73 /* SHApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHApp.h; path = Pointzi/Headers/SHApp.h; sourceTree = "<group>"; };
+		255EC19DA7B433E146AA609B051B7FA3 /* SHFriendlyNameObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHFriendlyNameObject.h; path = Pointzi/Headers/SHFriendlyNameObject.h; sourceTree = "<group>"; };
+		26690085709166EA03C7553947357C7D /* Pods-NativebaseKitchenSinkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NativebaseKitchenSinkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		292C3139864587B808389544125BEB92 /* SHAlertSettingsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHAlertSettingsViewController.xib; path = Pointzi/Assets/Xib/SHAlertSettingsViewController.xib; sourceTree = "<group>"; };
+		2AD678ED4345D25A2DEF066A298BA2E3 /* Image */ = {isa = PBXFileReference; includeInIndex = 1; name = Image; path = Pointzi/Assets/Image; sourceTree = "<group>"; };
+		3023E773EAF7788FAB92A91D5546B2ED /* Pods-NativebaseKitchenSinkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NativebaseKitchenSinkTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		32B41CE0650CAB1D38C82D6D5D3E005B /* SHTipTargetElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipTargetElement.h; path = Pointzi/Headers/SHTipTargetElement.h; sourceTree = "<group>"; };
+		3A72D3D8EB727F6E890CC1B8EE1D3423 /* SHPointzi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHPointzi.h; path = Pointzi/Headers/SHPointzi.h; sourceTree = "<group>"; };
+		3AE74FA4943927395E6A834698D77574 /* wallet.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = wallet.png; path = Pointzi/Assets/Image/wallet.png; sourceTree = "<group>"; };
+		3E6791A32B6BC642AE22A7972F8E0E84 /* Pods-NativebaseKitchenSinkTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NativebaseKitchenSinkTests-resources.sh"; sourceTree = "<group>"; };
+		47999279554BDECD698A1DE9311E1A9C /* record@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "record@3x.png"; path = "Pointzi/Assets/Image/record@3x.png"; sourceTree = "<group>"; };
+		47D334D9FE7740CDF49C7749EB0ED336 /* animation-pulse.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = "animation-pulse.gif"; path = "Pointzi/Assets/Image/animation-pulse.gif"; sourceTree = "<group>"; };
+		50A07B2336107D6283946FB35304CC64 /* StreetHawkCore_Pointzi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StreetHawkCore_Pointzi.h; path = Pointzi/Headers/StreetHawkCore_Pointzi.h; sourceTree = "<group>"; };
+		54A959801E8F09121491D48F4423E2D2 /* Pods-NativebaseKitchenSinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NativebaseKitchenSinkTests.release.xcconfig"; sourceTree = "<group>"; };
+		55D6685F601BF62DF2017ABDFB9AE59E /* SHFeedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHFeedObject.h; path = Pointzi/Headers/SHFeedObject.h; sourceTree = "<group>"; };
+		5C159217D8DCBADA8F447E3CE754AC9B /* Pods-NativebaseKitchenSink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NativebaseKitchenSink.release.xcconfig"; sourceTree = "<group>"; };
+		6359BAD8B2FB24BD6703B75F35282D66 /* PushDataForApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PushDataForApplication.h; path = Pointzi/Headers/PushDataForApplication.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C922CF4FA3A4E6F4F218BC7DB8EDA05 /* SHTipTextElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipTextElement.h; path = Pointzi/Headers/SHTipTextElement.h; sourceTree = "<group>"; };
+		72FD60AF502FE265368364AE71AE8B38 /* SHTipSeriesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipSeriesElement.h; path = Pointzi/Headers/SHTipSeriesElement.h; sourceTree = "<group>"; };
+		74900C902FF5F18A02AF87C607D6A2DA /* information-circled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "information-circled@3x.png"; path = "Pointzi/Assets/Image/information-circled@3x.png"; sourceTree = "<group>"; };
+		762D15B8FE34D94EDDF2E1D4BC0FE04B /* SHPopTipViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHPopTipViewController.xib; path = Pointzi/Assets/Xib/SHPopTipViewController.xib; sourceTree = "<group>"; };
+		7838746DC0991D565D09722082443EE2 /* SHTipLauncherElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipLauncherElement.h; path = Pointzi/Headers/SHTipLauncherElement.h; sourceTree = "<group>"; };
+		7E454AE7E8A2515BAF5228526576F8F3 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Pointzi/Assets/String/Localizable.strings; sourceTree = "<group>"; };
+		816A036B099E20F0A9BC5FA6D688215D /* SHSlideWebViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHSlideWebViewController.xib; path = Pointzi/Assets/Xib/SHSlideWebViewController.xib; sourceTree = "<group>"; };
+		818F9D505E7BD2015A31FE4A9459AE9C /* SHTipAnimationElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipAnimationElement.h; path = Pointzi/Headers/SHTipAnimationElement.h; sourceTree = "<group>"; };
+		865E1222A6ACFAD1484B5FFB58A69BBD /* Pods-NativebaseKitchenSinkTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NativebaseKitchenSinkTests-frameworks.sh"; sourceTree = "<group>"; };
+		8ABBF39BC2E6F4750A8C461ED795BF1F /* Xib */ = {isa = PBXFileReference; includeInIndex = 1; name = Xib; path = Pointzi/Assets/Xib; sourceTree = "<group>"; };
+		8FC615F829B17889EA0C945B7961B3CC /* Pods-NativebaseKitchenSink-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NativebaseKitchenSink-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9458F5CD60A4BEC32562DA8CFD253490 /* SHTipElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipElement.h; path = Pointzi/Headers/SHTipElement.h; sourceTree = "<group>"; };
+		9A1238C5F2D1C0CF36294CCCDE440F4E /* SHInstall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHInstall.h; path = Pointzi/Headers/SHInstall.h; sourceTree = "<group>"; };
+		9BB69542B0CE8A6571BE1206B97AB8BE /* Pointzi.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Pointzi.bundle; path = Pointzi.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD52C9E1B9BE1642376F687FE2AC508 /* alert-circled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alert-circled@3x.png"; path = "Pointzi/Assets/Image/alert-circled@3x.png"; sourceTree = "<group>"; };
+		A1BA381D46A81EC3904A3C9FC35738F2 /* SHObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHObject.h; path = Pointzi/Headers/SHObject.h; sourceTree = "<group>"; };
+		A5866AC20630822AB69B172CE5AE58E9 /* SHUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHUtils.h; path = Pointzi/Headers/SHUtils.h; sourceTree = "<group>"; };
+		A5CC36653D80F3C97ADFDD689BADA5DD /* SHPointziApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHPointziApi.h; path = Pointzi/Headers/SHPointziApi.h; sourceTree = "<group>"; };
+		A705F64CEECF2614E93B28D9BB858C8F /* Pods-NativebaseKitchenSink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NativebaseKitchenSink-dummy.m"; sourceTree = "<group>"; };
+		A7BA77340DA8D42F8B9C7BA9EBFCAF46 /* key.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = key.png; path = Pointzi/Assets/Image/key.png; sourceTree = "<group>"; };
+		AA34F161E4C022F57DA1719197103EDD /* Pods-NativebaseKitchenSinkTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NativebaseKitchenSinkTests-dummy.m"; sourceTree = "<group>"; };
+		AA4E6F33FDB8FE42B21159D35A7C7686 /* hotels.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hotels.png; path = Pointzi/Assets/Image/hotels.png; sourceTree = "<group>"; };
+		B27107DB07ECFEE1D0FF45C6EB95FD94 /* SHChoiceViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHChoiceViewController.xib; path = Pointzi/Assets/Xib/SHChoiceViewController.xib; sourceTree = "<group>"; };
+		B2977942ADCC872C1464C252E4EC821B /* SHTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTypes.h; path = Pointzi/Headers/SHTypes.h; sourceTree = "<group>"; };
+		B6D1A3AF55B644368DAB6E66D30DFD78 /* SHTipDismissElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipDismissElement.h; path = Pointzi/Headers/SHTipDismissElement.h; sourceTree = "<group>"; };
+		B7698D984208B91787C47EAF3E6487ED /* ResourceBundle-Pointzi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Pointzi-Info.plist"; sourceTree = "<group>"; };
+		B7C5CCC76A9E0D18502B79FD6329E49C /* SHTipWebElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipWebElement.h; path = Pointzi/Headers/SHTipWebElement.h; sourceTree = "<group>"; };
+		B930314B3BEB0C6199F2C42F8A0AC29E /* animation-pulse.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = "animation-pulse.gif"; path = "Pointzi/Assets/animation-pulse.gif"; sourceTree = "<group>"; };
+		BCF388E54AE084DB60E2EB3D597A49FA /* SHTipCoachmarkElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipCoachmarkElement.h; path = Pointzi/Headers/SHTipCoachmarkElement.h; sourceTree = "<group>"; };
+		BD91484EF2AD6B70120E85059CA506DE /* SHTipDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipDef.h; path = Pointzi/Headers/SHTipDef.h; sourceTree = "<group>"; };
+		C2BDA836CCB5B5418F98B29DC19C023C /* stores.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stores.png; path = Pointzi/Assets/Image/stores.png; sourceTree = "<group>"; };
+		CA05334EB843777B7EEAE7BF65120D3F /* SHBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHBaseViewController.h; path = Pointzi/Headers/SHBaseViewController.h; sourceTree = "<group>"; };
+		CD87E21388E65809F0341D10DEA03A90 /* SHApp+Feed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SHApp+Feed.h"; path = "Pointzi/Headers/SHApp+Feed.h"; sourceTree = "<group>"; };
+		CDA141AC372AA7DC772B2AEA307E0897 /* Pods-NativebaseKitchenSink-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NativebaseKitchenSink-acknowledgements.plist"; sourceTree = "<group>"; };
+		D06749A173FD30521F71ADDAD8749E1E /* camera@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "camera@3x.png"; path = "Pointzi/Assets/Image/camera@3x.png"; sourceTree = "<group>"; };
+		D12BD719ED5CAF2D5D39D09E4F6EF376 /* libPods-NativebaseKitchenSink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NativebaseKitchenSink.a"; path = "libPods-NativebaseKitchenSink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E086C8E1B85A23361C2470F6B89C07 /* Pods-NativebaseKitchenSink-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NativebaseKitchenSink-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5690FE6FDC6A1274788C1ECF860B863 /* SHTipImageElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipImageElement.h; path = Pointzi/Headers/SHTipImageElement.h; sourceTree = "<group>"; };
+		DBC20EE29B72591CBA848B3D4FE53CF7 /* SHTipFeedbackElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipFeedbackElement.h; path = Pointzi/Headers/SHTipFeedbackElement.h; sourceTree = "<group>"; };
+		DF16BA36FBE0FA0D2F0B24EFF92D1398 /* libPods-NativebaseKitchenSinkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NativebaseKitchenSinkTests.a"; path = "libPods-NativebaseKitchenSinkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02D88CF06ABC45E8052BC9B592AA11D /* PZApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PZApp.h; path = Pointzi/Headers/PZApp.h; sourceTree = "<group>"; };
+		E9001128B70A45E927DD028969613B76 /* String */ = {isa = PBXFileReference; includeInIndex = 1; name = String; path = Pointzi/Assets/String; sourceTree = "<group>"; };
+		E91A1919ED7A8710B2FDB724F6FFC1A5 /* Pods-NativebaseKitchenSinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NativebaseKitchenSinkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9A7707F788C78B548E5406F404D85FC /* banks.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = banks.png; path = Pointzi/Assets/Image/banks.png; sourceTree = "<group>"; };
+		FD90F173AFA24F7A971F73E696A785AA /* SHTipBaseElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHTipBaseElement.h; path = Pointzi/Headers/SHTipBaseElement.h; sourceTree = "<group>"; };
+		FDDE5D0AD0889423FDE6CB4617C7AF7B /* SHModalTipViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHModalTipViewController.xib; path = Pointzi/Assets/Xib/SHModalTipViewController.xib; sourceTree = "<group>"; };
+		FEDB600F30073BB1A49F1FB80DDCC94B /* pointzi-logo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pointzi-logo.png"; path = "Pointzi/Assets/Image/pointzi-logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E0B46C5F6D020E348E5C5E886841C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375328C8E93EA9584EA44915547A51E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560E669A58F96CE9A74ACD31A49A8FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C2BB414D31AC0C708940076FF21678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE375B0FFFEF75F1037257B132A1E4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0FBBAADEFA35365DBE51CED69D3CDF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D802DF5702A1DFF20B518F0252E8FC9D /* Pods-NativebaseKitchenSink */,
+				5A4F8B96795087FE0777CC401AE5F4D2 /* Pods-NativebaseKitchenSinkTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1096C4C5A63FE06EF14C525C58358C3F /* Lite */ = {
+			isa = PBXGroup;
+			children = (
+				6359BAD8B2FB24BD6703B75F35282D66 /* PushDataForApplication.h */,
+				E02D88CF06ABC45E8052BC9B592AA11D /* PZApp.h */,
+				1E1BD0C3AD16964738E09C9852D24F73 /* SHApp.h */,
+				CD87E21388E65809F0341D10DEA03A90 /* SHApp+Feed.h */,
+				CA05334EB843777B7EEAE7BF65120D3F /* SHBaseViewController.h */,
+				55D6685F601BF62DF2017ABDFB9AE59E /* SHFeedObject.h */,
+				255EC19DA7B433E146AA609B051B7FA3 /* SHFriendlyNameObject.h */,
+				9A1238C5F2D1C0CF36294CCCDE440F4E /* SHInstall.h */,
+				A1BA381D46A81EC3904A3C9FC35738F2 /* SHObject.h */,
+				3A72D3D8EB727F6E890CC1B8EE1D3423 /* SHPointzi.h */,
+				A5CC36653D80F3C97ADFDD689BADA5DD /* SHPointziApi.h */,
+				818F9D505E7BD2015A31FE4A9459AE9C /* SHTipAnimationElement.h */,
+				FD90F173AFA24F7A971F73E696A785AA /* SHTipBaseElement.h */,
+				15E4E85AB979C2E29DAE106480E80517 /* SHTipButtonElement.h */,
+				134E4B3DF36411A7409F5A07B889BD4F /* SHTipCarouselElement.h */,
+				BCF388E54AE084DB60E2EB3D597A49FA /* SHTipCoachmarkElement.h */,
+				BD91484EF2AD6B70120E85059CA506DE /* SHTipDef.h */,
+				B6D1A3AF55B644368DAB6E66D30DFD78 /* SHTipDismissElement.h */,
+				9458F5CD60A4BEC32562DA8CFD253490 /* SHTipElement.h */,
+				DBC20EE29B72591CBA848B3D4FE53CF7 /* SHTipFeedbackElement.h */,
+				D5690FE6FDC6A1274788C1ECF860B863 /* SHTipImageElement.h */,
+				7838746DC0991D565D09722082443EE2 /* SHTipLauncherElement.h */,
+				72FD60AF502FE265368364AE71AE8B38 /* SHTipSeriesElement.h */,
+				32B41CE0650CAB1D38C82D6D5D3E005B /* SHTipTargetElement.h */,
+				6C922CF4FA3A4E6F4F218BC7DB8EDA05 /* SHTipTextElement.h */,
+				B7C5CCC76A9E0D18502B79FD6329E49C /* SHTipWebElement.h */,
+				B2977942ADCC872C1464C252E4EC821B /* SHTypes.h */,
+				A5866AC20630822AB69B172CE5AE58E9 /* SHUtils.h */,
+				50A07B2336107D6283946FB35304CC64 /* StreetHawkCore_Pointzi.h */,
+				5CA30CCCFBD8C840F3E8E6EA30FA89C6 /* Frameworks */,
+				926D9926D75701EF0BCD6EDD4753ADA9 /* Resources */,
+			);
+			name = Lite;
+			sourceTree = "<group>";
+		};
+		344DB88FD44F653E41CCD159EE9EC597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12BD719ED5CAF2D5D39D09E4F6EF376 /* libPods-NativebaseKitchenSink.a */,
+				DF16BA36FBE0FA0D2F0B24EFF92D1398 /* libPods-NativebaseKitchenSinkTests.a */,
+				9BB69542B0CE8A6571BE1206B97AB8BE /* Pointzi.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4F8B96795087FE0777CC401AE5F4D2 /* Pods-NativebaseKitchenSinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				26690085709166EA03C7553947357C7D /* Pods-NativebaseKitchenSinkTests-acknowledgements.markdown */,
+				3023E773EAF7788FAB92A91D5546B2ED /* Pods-NativebaseKitchenSinkTests-acknowledgements.plist */,
+				AA34F161E4C022F57DA1719197103EDD /* Pods-NativebaseKitchenSinkTests-dummy.m */,
+				865E1222A6ACFAD1484B5FFB58A69BBD /* Pods-NativebaseKitchenSinkTests-frameworks.sh */,
+				3E6791A32B6BC642AE22A7972F8E0E84 /* Pods-NativebaseKitchenSinkTests-resources.sh */,
+				E91A1919ED7A8710B2FDB724F6FFC1A5 /* Pods-NativebaseKitchenSinkTests.debug.xcconfig */,
+				54A959801E8F09121491D48F4423E2D2 /* Pods-NativebaseKitchenSinkTests.release.xcconfig */,
+			);
+			name = "Pods-NativebaseKitchenSinkTests";
+			path = "Target Support Files/Pods-NativebaseKitchenSinkTests";
+			sourceTree = "<group>";
+		};
+		5CA30CCCFBD8C840F3E8E6EA30FA89C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16A2B291118E14B8B54406C12BAB9A3C /* libPointzi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8DB3CF0E91C5AC27B3AD14048D393AF6 /* Pods */,
+				344DB88FD44F653E41CCD159EE9EC597 /* Products */,
+				0D0FBBAADEFA35365DBE51CED69D3CDF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81B349CF1DED48277D326049866A01CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7698D984208B91787C47EAF3E6487ED /* ResourceBundle-Pointzi-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pointzi";
+			sourceTree = "<group>";
+		};
+		8DB3CF0E91C5AC27B3AD14048D393AF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E4749BE05BA5F7072A323750E263F /* pointzi */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		926D9926D75701EF0BCD6EDD4753ADA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BD52C9E1B9BE1642376F687FE2AC508 /* alert-circled@3x.png */,
+				47D334D9FE7740CDF49C7749EB0ED336 /* animation-pulse.gif */,
+				B930314B3BEB0C6199F2C42F8A0AC29E /* animation-pulse.gif */,
+				E9A7707F788C78B548E5406F404D85FC /* banks.png */,
+				D06749A173FD30521F71ADDAD8749E1E /* camera@3x.png */,
+				1A07D7A3BF24B4754B9CD4002D3605F9 /* close@3x.png */,
+				0D51B00CF6BC52385EDDA3B6A7967C3A /* help-circled@3x.png */,
+				AA4E6F33FDB8FE42B21159D35A7C7686 /* hotels.png */,
+				2AD678ED4345D25A2DEF066A298BA2E3 /* Image */,
+				74900C902FF5F18A02AF87C607D6A2DA /* information-circled@3x.png */,
+				A7BA77340DA8D42F8B9C7BA9EBFCAF46 /* key.png */,
+				7E454AE7E8A2515BAF5228526576F8F3 /* Localizable.strings */,
+				FEDB600F30073BB1A49F1FB80DDCC94B /* pointzi-logo.png */,
+				47999279554BDECD698A1DE9311E1A9C /* record@3x.png */,
+				292C3139864587B808389544125BEB92 /* SHAlertSettingsViewController.xib */,
+				B27107DB07ECFEE1D0FF45C6EB95FD94 /* SHChoiceViewController.xib */,
+				00EF4638999FF47C6BA27A21CD3F71DD /* SHCoachmarkTipViewController.xib */,
+				167E4B57695E23052537451CAE2C8816 /* SHFeedbackViewController.xib */,
+				FDDE5D0AD0889423FDE6CB4617C7AF7B /* SHModalTipViewController.xib */,
+				00B689A9BAEA83E0EE95A849CD8C6F01 /* shopping_cart.png */,
+				762D15B8FE34D94EDDF2E1D4BC0FE04B /* SHPopTipViewController.xib */,
+				816A036B099E20F0A9BC5FA6D688215D /* SHSlideWebViewController.xib */,
+				C2BDA836CCB5B5418F98B29DC19C023C /* stores.png */,
+				E9001128B70A45E927DD028969613B76 /* String */,
+				3AE74FA4943927395E6A834698D77574 /* wallet.png */,
+				8ABBF39BC2E6F4750A8C461ED795BF1F /* Xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3E4749BE05BA5F7072A323750E263F /* pointzi */ = {
+			isa = PBXGroup;
+			children = (
+				1096C4C5A63FE06EF14C525C58358C3F /* Lite */,
+				81B349CF1DED48277D326049866A01CD /* Support Files */,
+			);
+			name = pointzi;
+			path = pointzi;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D802DF5702A1DFF20B518F0252E8FC9D /* Pods-NativebaseKitchenSink */ = {
+			isa = PBXGroup;
+			children = (
+				D2E086C8E1B85A23361C2470F6B89C07 /* Pods-NativebaseKitchenSink-acknowledgements.markdown */,
+				CDA141AC372AA7DC772B2AEA307E0897 /* Pods-NativebaseKitchenSink-acknowledgements.plist */,
+				A705F64CEECF2614E93B28D9BB858C8F /* Pods-NativebaseKitchenSink-dummy.m */,
+				1C383B3E41D56DAD4CF992E0D565495F /* Pods-NativebaseKitchenSink-frameworks.sh */,
+				8FC615F829B17889EA0C945B7961B3CC /* Pods-NativebaseKitchenSink-resources.sh */,
+				023D16F29A0787F2FB16ADC304DCAE44 /* Pods-NativebaseKitchenSink.debug.xcconfig */,
+				5C159217D8DCBADA8F447E3CE754AC9B /* Pods-NativebaseKitchenSink.release.xcconfig */,
+			);
+			name = "Pods-NativebaseKitchenSink";
+			path = "Target Support Files/Pods-NativebaseKitchenSink";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05CE8446392D20C82822E2FF45F2FB51 /* Pods-NativebaseKitchenSink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553C314A51D5B521E33A859572C50DC7 /* Build configuration list for PBXNativeTarget "Pods-NativebaseKitchenSink" */;
+			buildPhases = (
+				CBCBA7A05279AF703C976BDB31F827D2 /* Sources */,
+				38E0B46C5F6D020E348E5C5E886841C4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301CC5EE7C19F30E7FC00A1054D0BB8E /* PBXTargetDependency */,
+			);
+			name = "Pods-NativebaseKitchenSink";
+			productName = "Pods-NativebaseKitchenSink";
+			productReference = D12BD719ED5CAF2D5D39D09E4F6EF376 /* libPods-NativebaseKitchenSink.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4F813C0A721B33791F7A869B0D6A6816 /* Pods-NativebaseKitchenSinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7BE21B151B7078B06876C4B6A3A62F /* Build configuration list for PBXNativeTarget "Pods-NativebaseKitchenSinkTests" */;
+			buildPhases = (
+				00189E804C53FEF5662DC5AD7734FF78 /* Sources */,
+				83C2BB414D31AC0C708940076FF21678 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63738020194A8BE977806AA6D069C2E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-NativebaseKitchenSinkTests";
+			productName = "Pods-NativebaseKitchenSinkTests";
+			productReference = DF16BA36FBE0FA0D2F0B24EFF92D1398 /* libPods-NativebaseKitchenSinkTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		92904F29577F22586BC2F142781C2346 /* pointzi-Pointzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5727E7B8C1A735FF2279BFC24518DA /* Build configuration list for PBXNativeTarget "pointzi-Pointzi" */;
+			buildPhases = (
+				B97DD8395EF53A1202A0AC14EF6D2AF7 /* Sources */,
+				560E669A58F96CE9A74ACD31A49A8FEC /* Frameworks */,
+				DE22B213E6C316CD91565ACFF9E027EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pointzi-Pointzi";
+			productName = "pointzi-Pointzi";
+			productReference = 9BB69542B0CE8A6571BE1206B97AB8BE /* Pointzi.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 344DB88FD44F653E41CCD159EE9EC597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05CE8446392D20C82822E2FF45F2FB51 /* Pods-NativebaseKitchenSink */,
+				4F813C0A721B33791F7A869B0D6A6816 /* Pods-NativebaseKitchenSinkTests */,
+				92904F29577F22586BC2F142781C2346 /* pointzi-Pointzi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE22B213E6C316CD91565ACFF9E027EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1B50CBDF70E4611A7E19218CACCAA2 /* alert-circled@3x.png in Resources */,
+				2A99E8127E419468AB8D2F30E8AB3F68 /* animation-pulse.gif in Resources */,
+				8F667463292C68874BA9551032A6389C /* animation-pulse.gif in Resources */,
+				8736BFE71630DE30BA9E141E7AEAD820 /* banks.png in Resources */,
+				A5D57B3D640ED6DADAE91A50DE717A1E /* camera@3x.png in Resources */,
+				83BCDBA752B754297B982E2F0415F9C6 /* close@3x.png in Resources */,
+				99C3927E1393E55F21620DC3EEFCA766 /* help-circled@3x.png in Resources */,
+				5E10D8EDE79945E1A70C6AB40C5257F9 /* hotels.png in Resources */,
+				CC1F88D61549C414732DAA01946ED716 /* Image in Resources */,
+				A8EE30A669FC6B4D1301CEC065F3B774 /* information-circled@3x.png in Resources */,
+				9580982B702AAB88A05E6EB52A4CB8FD /* key.png in Resources */,
+				CB5B6EE1DF6E4872EBA12950B94E98F8 /* Localizable.strings in Resources */,
+				1E4381496209289F723E5ED66E1235E4 /* pointzi-logo.png in Resources */,
+				84FF1EA9E0A6EEAEC2801DA7599B69D5 /* record@3x.png in Resources */,
+				7D29F84BC9B4F9AEE5049B8293F3328C /* SHAlertSettingsViewController.xib in Resources */,
+				4FBE21251BE5991F60C68BE38AFC4446 /* SHChoiceViewController.xib in Resources */,
+				9A48525A1C8343BBD21ED3A03551F1B4 /* SHCoachmarkTipViewController.xib in Resources */,
+				B2F8ADDF2DD24CEEDC0ACDD66076E379 /* SHFeedbackViewController.xib in Resources */,
+				4282A48BE509047C88A53386F48AFB63 /* SHModalTipViewController.xib in Resources */,
+				D63A805C0712DCA364B3377A4E468183 /* shopping_cart.png in Resources */,
+				38B5176592C0954D342D67193A5D1A8C /* SHPopTipViewController.xib in Resources */,
+				51440BE00C77D5CAA2E3F614E44ED951 /* SHSlideWebViewController.xib in Resources */,
+				8BAB88D2A738F28617245C5644C39135 /* stores.png in Resources */,
+				F802C490829B945833A9F5FA90934261 /* String in Resources */,
+				3D984787C0E455369CD1DB9370FF50D6 /* wallet.png in Resources */,
+				20F5A513D04EACEAD5040C490A5311D4 /* Xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00189E804C53FEF5662DC5AD7734FF78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5015127F7B708EF863FB1327B21EC6E3 /* Pods-NativebaseKitchenSinkTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97DD8395EF53A1202A0AC14EF6D2AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCBA7A05279AF703C976BDB31F827D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358E42C704CC8BC4CC15C0CD7B76D401 /* Pods-NativebaseKitchenSink-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301CC5EE7C19F30E7FC00A1054D0BB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "pointzi-Pointzi";
+			target = 92904F29577F22586BC2F142781C2346 /* pointzi-Pointzi */;
+			targetProxy = 605505C813422AE2E4E952A1AFF4DB34 /* PBXContainerItemProxy */;
+		};
+		63738020194A8BE977806AA6D069C2E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "pointzi-Pointzi";
+			target = 92904F29577F22586BC2F142781C2346 /* pointzi-Pointzi */;
+			targetProxy = 9FBAC687E31DEB6457ABF4138D4A6C91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CBA023EBFDDBF0EF6FFD965A67B9B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A959801E8F09121491D48F4423E2D2 /* Pods-NativebaseKitchenSinkTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AE8D60CBDC8BFDA7A9CEDE8A4A5BE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023D16F29A0787F2FB16ADC304DCAE44 /* Pods-NativebaseKitchenSink.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CB72512101185BD9F90045466D44543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C159217D8DCBADA8F447E3CE754AC9B /* Pods-NativebaseKitchenSink.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A6BC4701672E7375E689B3AC9CEEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/pointzi";
+				INFOPLIST_FILE = "Target Support Files/pointzi/ResourceBundle-Pointzi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Pointzi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B37A475FA187C016631AEBEF20E47E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91A1919ED7A8710B2FDB724F6FFC1A5 /* Pods-NativebaseKitchenSinkTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FB0A674D0FB09451213D3A551B6BC350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/pointzi";
+				INFOPLIST_FILE = "Target Support Files/pointzi/ResourceBundle-Pointzi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Pointzi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B7BE21B151B7078B06876C4B6A3A62F /* Build configuration list for PBXNativeTarget "Pods-NativebaseKitchenSinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37A475FA187C016631AEBEF20E47E8E /* Debug */,
+				2CBA023EBFDDBF0EF6FFD965A67B9B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553C314A51D5B521E33A859572C50DC7 /* Build configuration list for PBXNativeTarget "Pods-NativebaseKitchenSink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE8D60CBDC8BFDA7A9CEDE8A4A5BE78 /* Debug */,
+				9CB72512101185BD9F90045466D44543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5727E7B8C1A735FF2279BFC24518DA /* Build configuration list for PBXNativeTarget "pointzi-Pointzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A6BC4701672E7375E689B3AC9CEEDA /* Debug */,
+				FB0A674D0FB09451213D3A551B6BC350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
